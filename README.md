@@ -23,14 +23,14 @@ This project takes raw text input, processes it through a pipeline, and uses a t
    cd email-spam-classifier
 
 2. Create Virtual Environment.
-    ```bash
-    python3 -m venv venv
+   ```bash
+   python3 -m venv venv
 
    Activate the virtual environment.
    ```bash
    source venv/bin/activate   
    
-   On Windows use: 
+   On Windows use 
    ```bash
    venv\Scripts\activate
 

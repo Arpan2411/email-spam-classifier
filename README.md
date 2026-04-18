@@ -19,21 +19,25 @@ This project takes raw text input, processes it through a pipeline, and uses a t
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Arpan2411/email-spam-classifier.git](https://github.com/Arpan2411/email-spam-classifier.git)
+   git clone https://github.com/Arpan2411/email-spam-classifier.git
    cd email-spam-classifier
 
 2. Create Virtual Environment.
-
-   `python3 -m venv venv`
+    ```bash
+    python3 -m venv venv
 
    Activate the virtual environment.
-
-   `source venv/bin/activate`   On Windows use: `venv\Scripts\activate`
+   ```bash
+   source venv/bin/activate   
+   
+   On Windows use: 
+   ```bash
+   venv\Scripts\activate
 
 3. Install the requirements.
-
-   `pip install streamlit scikit-learn pandas nltk`
+   ```bash
+   pip install streamlit scikit-learn pandas nltk
 
 4. Run the project.
-
-   `streamlit run app.py`
+   ```bash
+   streamlit run app.py
